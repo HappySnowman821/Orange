@@ -12,6 +12,7 @@
     <string name="label_orientation_options_landscape">Landscape</string>
     <string name="label_orientation_options_reverse_landscape">Reverse landscape</string>
     <string name="label_orientation_options_sensor_landscape">Sensor landscape</string>
+    <string name="label_orientation_options_sensor_portrait">Sensor portrait</string>
     <string name="label_orientation_options_sensor">Sensor</string>
 
     <string name="key_setting_hide_icon" translatable="false">hide_icon</string>

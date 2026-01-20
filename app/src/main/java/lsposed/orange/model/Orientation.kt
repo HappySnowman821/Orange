@@ -9,6 +9,7 @@ enum class Orientation {
     LANDSCAPE,
     REVERSE_LANDSCAPE,
     SENSOR_LANDSCAPE,
+    SENSOR_PORTRAIT,
     SENSOR;
 
     fun toLabel() = when (this) {
@@ -17,6 +18,7 @@ enum class Orientation {
         LANDSCAPE -> "L"
         REVERSE_LANDSCAPE -> "RL"
         SENSOR_LANDSCAPE -> "SL"
+        SENSOR_PORTRAIT -> "SP"
         SENSOR -> "S"
     }
 }
@@ -27,5 +29,6 @@ fun mapActivityOrientation(orientation: Int) = when (Orientation.values()[orient
     Orientation.LANDSCAPE -> ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
     Orientation.REVERSE_LANDSCAPE -> ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE
     Orientation.SENSOR_LANDSCAPE -> ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE
+    Orientation.SENSOR_PORTRAIT -> ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT
     Orientation.SENSOR -> ActivityInfo.SCREEN_ORIENTATION_SENSOR
 }
