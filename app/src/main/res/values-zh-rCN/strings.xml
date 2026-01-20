@@ -10,6 +10,7 @@
     <string name="label_orientation_options_landscape">横屏</string>
     <string name="label_orientation_options_reverse_landscape">反向横屏</string>
     <string name="label_orientation_options_sensor_landscape">双向横屏</string>
+    <string name="label_orientation_options_sensor_portrait">Two-wayPortrait</string>
     <string name="label_orientation_options_sensor">传感器</string>
     <string name="title_category_settings">设置</string>
     <string name="title_setting_hide_icon">隐藏桌面图标</string>

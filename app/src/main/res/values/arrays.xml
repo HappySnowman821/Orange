@@ -9,6 +9,7 @@
         <item>@string/label_orientation_options_landscape</item>
         <item>@string/label_orientation_options_reverse_landscape</item>
         <item>@string/label_orientation_options_sensor_landscape</item>
+        <item>@string/label_orientation_options_sensor_portrait</item>
         <item>@string/label_orientation_options_sensor</item>
     </string-array>
 </resources>
